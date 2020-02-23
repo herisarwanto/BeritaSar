@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933072413259",
+    "firebase_url": "https://beritasar-5f29e.firebaseio.com",
+    "project_id": "beritasar-5f29e",
+    "storage_bucket": "beritasar-5f29e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933072413259:android:0991e470bfe641e11ae3ce",
+        "android_client_info": {
+          "package_name": "com.sar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933072413259-pd7l0c95iutbpc67bgja0gnqh3v7c5db.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sar",
+            "certificate_hash": "8980989d5edcb28c7f73ebe8ed2c8d2f7da93e79"
+          }
+        },
+        {
+          "client_id": "933072413259-o4gl7aee5pg8rkg4dbtgim0nt37k9k77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5onBto91N4y8ynb-9T9m7Urk4sJlpoBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933072413259-o4gl7aee5pg8rkg4dbtgim0nt37k9k77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

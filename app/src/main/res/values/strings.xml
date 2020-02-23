@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BeritaSAR</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_password_empty">Password tidak boleh kosong!</string>
+    <string name="txt_username_empty">Username tidak boleh kosong!</string>
+    <string name="txt_nothing_answer">Tidak boleh kosong!</string>
+    <string name="txt_wrong_answer">Jawaban Salah</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_favorit">Favorit</string>
+    <string name="txt_profil">Profil</string>
+
+    <string name="txt_short_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_tag">Tag</string>
+    <string name="txt_info">Informasi</string>
+    <string name="txt_tag_berita">Tag Berita</string>
+    <string name="txt_tidak_ada_data">Tidak ada data</string>
+    <string name="txt_info_akun">Info Akun</string>
+    <string name="txt_nama">Nama</string>
+    <string name="txt_id">Id</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--MINIMUM-->
+    <dimen name="min_3">3dp</dimen>
+    <dimen name="min_5">5dp</dimen>
+    <dimen name="min_10">10dp</dimen>
+    <dimen name="min_12">12dp</dimen>
+    <dimen name="min_14">14dp</dimen>
+    <dimen name="min_15">15dp</dimen>
+    <dimen name="min_16">16dp</dimen>
+    <dimen name="min_18">18dp</dimen>
+    <dimen name="min_20">20dp</dimen>
+    <dimen name="min_22">22dp</dimen>
+    <dimen name="min_24">24dp</dimen>
+    <dimen name="min_25">25dp</dimen>
+    <dimen name="min_28">28dp</dimen>
+    <dimen name="min_30">30dp</dimen>
+
+    <!--MEDIUM-->
+    <dimen name="med_32">32dp</dimen>
+    <dimen name="med_34">34dp</dimen>
+    <dimen name="med_36">36dp</dimen>
+    <dimen name="med_38">38dp</dimen>
+    <dimen name="med_42">42dp</dimen>
+    <dimen name="med_44">44dp</dimen>
+    <dimen name="med_48">48dp</dimen>
+
+    <!--MAXIMUM-->
+    <dimen name="max_52">52dp</dimen>
+    <dimen name="max_54">54dp</dimen>
+    <dimen name="max_56">56dp</dimen>
+
+</resources>

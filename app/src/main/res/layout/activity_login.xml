@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.sar.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/logo_background"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sar_logo" />
+
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_background"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_user"
+            android:ems="10"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_color"
+            android:textSize="18sp" />
+
+        <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:id="@+id/scot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_password"
+            android:background="@drawable/edit_text_background"
+            android:drawablePadding="10dp"
+            app:drawable_hide="@drawable/ic_eye_visibility"
+            app:drawable_show="@drawable/ic_eye_visibility_off"
+            android:inputType="textPassword"
+            android:hint="@string/txt_password"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_color"
+            app:tint_color="@color/colorAccent" />
+
+        <Spinner
+            android:id="@+id/sp_status"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_color"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_numb1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"
+            android:background="@drawable/edit_text_background"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_color"
+            android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_add"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:hint="+"
+                android:enabled="false"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint_color"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_numb2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="2"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint_color"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_equals"
+                android:layout_width="1dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:hint="="
+                android:enabled="false"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint_color"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_numb3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="2"
+                android:background="@drawable/edit_text_background"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/hint_color"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:gravity="right"-->
+<!--            android:visibility="invisible"-->
+<!--            android:text="Forgot password ?"-->
+<!--            android:textColor="@color/white" />-->
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/min_10"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:text="Log in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Sign Up"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="21sp" />-->
+    </LinearLayout>
+
+</RelativeLayout>
